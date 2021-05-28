@@ -6,9 +6,12 @@ body {
 
 h1 {
   font-size: 5rem;
-  color: #66bfbf;
-  margin: 50px auto 0 auto;
+  color: white;
+  margin: auto;
   font-family: "Sacramento", cursive;
+  position: absolute;
+  top: 150px;
+  left: 250px;
 }
 
 h2 {
@@ -16,6 +19,13 @@ h2 {
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
   color: #66bfbf;
+}
+.h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #dbe6e6;
+  position: absolute;
+  top: 250px;
+  left: 255px;
 }
 
 h3 {
@@ -78,24 +88,22 @@ a:hover {
   float: left;
   padding-right: 15px;
 }
-.bottom-cloud {
-  position: relative;
-  bottom: 300px;
-  left: 20px;
-}
-.top-cloud {
-  position: relative;
-  left: 350px;
-}
-
-.bottom-mountain {
-  margin-right: 150px;
-}
 
 .top-container {
-  background-color: #e4f9f5;
   position: relative; /* the box is now free to move from static position by 100px from top */
-  padding-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.dComm1 {
+  float: center;
+  width: 1200px;
+}
+
+.alkesh-pic {
+  float: right;
+  position: absolute;
+  right: 55px;
+  top: 30px;
 }
 
 .middle-container {
