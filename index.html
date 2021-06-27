@@ -1,75 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alkesh Agrawal</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <link href="style.css" rel="stylesheet" />
-    <link href="favicon.ico" rel="icon" />
+    <!-- google fonts-->
+    <!-- font-family: 'Montserrat', sans-serif; font-family: 'Sacramento', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@600&family=Sacramento&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>Alkesh Agrawal</title>
   </head>
   <body>
-    <div class="top-container">
-      <h1>I'm Dr. Alkesh Agrawal</h1>
-      <h2 class="h2"> Associate Professor, passion for Web Design</h2> 
-      <img class="alkesh-pic" src="alkesh1.png" alt="" />
-      <img class="dComm1" src="digitalComm1.jpg" />
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        
-        <h2>Welcome to my web page</h2>
-        <p class='profile'>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <a class="navbar-brand" href="#"> Alkesh Agrawal</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-item">
+            <a class="nav-link" href="#profile">Profile</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#profile">Publications</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#profile">Awards</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#profile">Patents</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#youtube">My Youtube Channel</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#linkedin">Linkedin</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#linkedin">Google Scholar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container top-container">
+      <div class="big-title">
+        <h1 class="title">
+          I'm Dr. Alkesh Agrawal
+          <p>Passion for Web Design !</p>
+        </h1>
+        <img class="profile-img" src="alkesh1.png" />
+        <img class="background-img1" src="digitalComm1.jpg" />
+      </div> <hr class="border-line">
+      
+      <div class="profile container" id="profile">
+        <h2 class="sub-title">Welcome to my Webpage</h2>
+        <p class="profile-para">
           Ph.D in Broad-band EM Absorber based on Metamaterial. I have a total
           academic experience of 18 years with paper presentations and
-          publications in reputed conferences and journals indexed in WOS and SCOPUS. I have been an active reviewer of papers of many reputed
+          publications in reputed conferences and journals indexed in WoS and SCOPUS. I have been an active reviewer of papers of many reputed
           journals - IEEE Access, Journal of Physics Communication (IOP), Physica
           Scripta (IOP), Journal of Physics D: Applied Physics (IOP), Microwave
           and Optical Technology Letters (Wiley). I am professional member of
           IEEE. <strong>Research interests </strong> include design, simulation, fabrication and testing of Metamaterial Absorbers.
-          <h3><a class="btn" href="researchpublication.html"> Research Publications </a> </h3>
+          <h4 ><a class="myButton" href="researchpublication.html"> Publications </a> <a class="myButton" href="awards.html"> Awards </a> <a class="myButton" href="patent.html"> Patents </a></h4>
         </p>
-      </div>
-      <hr />
-      <div class="skills">
-        <div class="skill-row">
-          
-          <img class="youtube-pic" src="youtubepic2.png" alt="" />
-          <p> <h2>My YouTube Channel</h2>
-            I have my YouTube Channel with lectures on Digital System Design, Digital Electronics, Digital Communication.
-          </p>
-          <h3><a class="btn" href="myyoutubechannel.html"> ETronicsLecturesbyDrAlkesh </a> </h3>
-        </div>
-       
-        <div class="skill-row">
-          
-          <img class="skill-pic" src="training.png" alt="" />
-          <p> <h2>My Skills.</h2> Web Designing, Design and Simulation in CST Microwave Studio,
-          Programming skills in LabVIEW,
-          Programming skills and Simulink in Scilab and Matlab,
-          Drawing skills in MS Visio.               
-          </p>
-        </div>
-        
-      </div>
-      <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3> For any kind of professional help.</h3>
-        <p class="help">
-          Design of Websites, Research related help in terms of Design and Simulation on CST Microwave Studio, Publication of Papers in refereed journals.... 
-        </p> <br/>
-        <a class="myButton" href="contact.html">CONTACT ME</a><br/> <br/>
-      </div>
-    </div>
 
-    <div class="bottom-container">
-      <br/><a href="https://in.linkedin.com/in/dr-alkesh-agrawal-0050a9172?trk=profile-badge"> linkedin </a>
+      </div>
+    </div><br><br> <hr class="border-line">
+
+    <div class="middle-container-1 container" id="skills">
+      
+      <h2 class="sub-title">My Skills.</h2>
+     
+        <ul class="skill-points">
+        <li ><strong>Web Designing</strong> </li><br><br>
+        <li><strong>Design and Simulation in CST Microwave Studio</strong></li><br><br>
+        <li><strong>Programming skills in LabVIEW</strong></li><br><br>
+        <li><strong>Programming skills and Simulink in Scilab and Matlab</strong></li><br><br>
+        <li><strong>Drawing skills in MS Visio.</strong> </li><br><br>
+       </ul>
+       <img class="background-img2" src="digitalComm2.jpg" style="width:100%;" />
+       <a class="myButton" href="gallery.html"> Gallery </a>
+    </div><hr class="border-line">
+    <div class="middle-container-2 container" id="youtube">
+      
+      <h2 class="sub-title">My Youtube Channel.</h2>
+      <p> 
+        I have my Youtube Channel with lectures on Digital System Design, Digital Electronics, Digital Communication that includes topics- Combinational Logic Design, Sequential Logic Design, Counters, Registers, Special Counters, ASM Charts, Logic Families (TTL, NMOS, PMOS, CMOS), Analog Modulation Techniques, Multiple Access Techniques...    
+      </p>
+      <a class="myButton" href="myyoutubechannel.html"> ETronicsLecturesbyDrAlkesh </a> 
+    </div><hr class="border-line">
+
+    <div class=" bottom-container contact-me container" id="contact">
+      <h2 class="sub-title">Get In Touch</h2>
+      <h4 class="sub-title"> For any kind of professional help.</h4>
+      <p>
+        Design of Websites, Research related help in terms of Design and Simulation on CST Microwave Studio, Publication of Papers in refereed journals.... 
+      </p> <br/>
+      <a class="myButton" href="contact.html">Contact Me</a><br/> <br/>
+    </div> 
+    <div class="footer container" id="linkedin">
+      <br/><a href="https://in.linkedin.com/in/dr-alkesh-agrawal-0050a9172?trk=profile-badge"> Linkedin </a>
+      <a href="https://scholar.google.com/citations?hl=en&user=Yc6hSfcAAAAJ"> Google Scholar </a>
       <p class="copy-right">© 2021 Alkesh Agrawal.</p>
     </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
